@@ -3,6 +3,7 @@ node()
 	stage('Clone repo')
 	{
 		echo "Checkout from Github"
+		git 'https://github.com/MonishaManjappa/test-maven-app.git'
 	}
 
 	
