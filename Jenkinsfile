@@ -1,4 +1,4 @@
-node()
+node('Linux_Slave1')
 {
 	stage('Clone repo')
 	{
