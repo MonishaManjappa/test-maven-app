@@ -3,7 +3,7 @@ node('Linux_Slave1')
 	stage('Clone repo')
 	{
 		echo "Checkout from Github"
-		git 'https://github.com/MonishaManjappa/test-maven-app.git'
+		//git 'https://github.com/MonishaManjappa/test-maven-app.git'
 	}
 
 	
