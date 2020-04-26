@@ -16,7 +16,7 @@ pipeline {
         }
         stage('copying to local') {
             steps {
-                sh 'cp target/*.war /home/ubuntu/builds'
+                sh 'cp target/*.jar /home/ubuntu/builds'
             }
         }
     }
